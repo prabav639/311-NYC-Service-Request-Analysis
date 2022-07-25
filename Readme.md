@@ -38,7 +38,7 @@ After obtaining results for correlation and t-test, we can understand that the c
 
 Now, we are performing some feature engineering tasks like outlier analysis to make the data ready for model training.
 
-After feature engineering, we are dividing the data into training and test data of 280 days and 96 days.
+After feature engineering, we are dividing the data into training and test data of 280 days and 90 days.
 
 We are feeding the training data into the model to forecast the future values and the Time Series Forecasting models implemented are:
 
