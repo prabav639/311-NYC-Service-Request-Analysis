@@ -45,6 +45,6 @@ We are feeding the training data into the model to forecast the future values an
 1) ARIMA (Auto-regressive Integrated Moving Average)
 2) Prophet model by Facebook
 
-We are finally evaluating the models using the scikit learn's metrics:
+Finally, we are evaluating the models using the scikit learn's metrics:
 1) MAPE (Mean Absolute Percentage Error)
 2) MAE (Mean Absolute Error)
