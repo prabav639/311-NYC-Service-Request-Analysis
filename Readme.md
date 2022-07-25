@@ -34,7 +34,7 @@ The insights gained are:
 After aggregation and merging of dataframes, we are performing a correlation to find the relationship of weather in the number of calls and t-test for 
 impact. 
 
-After obtaining results for correlation and t-test, we can understand that the correlation is weak and has very less impact.
+After obtaining results for correlation and granger causality, we can understand that the correlation is weak and has very less impact.
 
 Now, we are performing some feature engineering tasks like outlier analysis to make the data ready for model training.
 
