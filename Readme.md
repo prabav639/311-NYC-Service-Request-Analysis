@@ -1,6 +1,6 @@
 # 311 NYC Service Request Analysis and Time Series Forecasting
 
-About the data: 
+## About the data: 
 
 311 NYC Services receives non-emergency calls from people in the particular city like Noise complaints, Driveway blocks, Rodent
 issues etc. These requests are reported at 311 and based on the issue, the request will be forwarded to the concerned department like NYPD, HPD
@@ -16,10 +16,12 @@ attributes, temperature, humidity, pressure, wind speed, wind description. The w
 
 https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
-Problem Statement:
+## Problem Statement:
 
 In our analysis we are trying to gain insights about the call patterns, departments received the most calls etc., and forecast the inbound call counts
 for the next day.
+
+## Insights: 
 
 The insights gained are:
 
@@ -30,6 +32,8 @@ The insights gained are:
 5. Noise/Residential complaint was the most reported at NYPD
 6. January month received the maximum complaints
 7. Heat/Hot water complaint was the most reported when the Temperature fell below 0 Celsius
+
+## Approach:
 
 After aggregation and merging of dataframes, we are performing a correlation to find the relationship of weather in the number of calls and t-test for 
 impact. 
