@@ -38,8 +38,6 @@ After aggregation and merging of dataframes, I am performing a correlation to fi
 
 After obtaining results for correlation and granger causality, I was able to understand that the correlation is weak and has very less impact.
 
-After statistical tests, I have performed some feature engineering tasks like outlier analysis to make the data ready for model training.
-
 After feature engineering, I have divided the data into training and test data of 280 days and 90 days (includes 5 days of synthetic samples)
 
 I have fed the training data into the model to forecast the future values and the Time Series Forecasting models implemented are:
